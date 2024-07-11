@@ -193,7 +193,7 @@ const Header = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav>
+    <nav className="rounded-md shadow-md ">
       <div className="flex justify-center items-center gap-10 py-2 px-3">
         <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg" />
         <input
